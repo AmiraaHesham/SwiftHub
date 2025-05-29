@@ -1,0 +1,56 @@
+import React from 'react'
+import { IoStar } from "react-icons/io5";
+
+import Image from "next/image";
+const Section1 = () => {
+    return (
+        <div>
+            <div className="flex flex-col text-center mt-32 justify-center items-center font-serif">
+                <h1 className=" md:text-7xl font-bold leading-tight">
+                    Seamless Logistics,<br />
+                    Faster<span className="text-teal-600">Deliveries</span>
+                </h1>
+
+                <h6 className="text-gray-500 md:text-xl xs:text-lg mt-5">Streamlined freight management with real-time tracking.</h6>
+            </div>
+
+
+            <div className="flex justify-center relative  items-center mt-10 rounded-3xl " >
+                <Image src={'/boat.jpg'} alt="" width={1300} height={100} className="rounded-3xl w-[100%] h-[600px]" />
+
+                <div className="flex lg:flex-row xs:flex-col absolute lg:justify-between lg:items-center w-full top-0">
+                    <div className=" block lg:order-1 xs:order-2 md:w-[40%] rounded-t-xl p-3">
+                        <div className="flex items-center text-white gap-2 bg-white/25 backdrop-blur-lg w-[220px] rounded-xl p-2">
+                            <div className=" flex -space-x-4">
+                                <Image src={'/person1.jpeg'} alt="" width={35} height={0} className="rounded-full h-[30px]  border border-white" />
+                                <Image src={'/person2.jpeg'} alt="" width={35} height={0} className="rounded-full h-[30px] border border-white " />
+                                <Image src={'/person3.jpeg'} alt="" width={35} height={0} className="rounded-full h-[30px]  border border-white" />
+                                <Image src={'/person4.jpeg'} alt="" width={35} height={0} className="rounded-full  h-[30px] border border-white" />
+                            </div>
+                            <span >+10M User</span>
+                        </div>
+                    </div>
+                    <div className="flex justify-center lg:order-2 xs:order-1 items-center">
+                        <div className="bg-white flex md:flex-row xs:flex-col justify-center  w-[400px]  items-center gap-4 py-4 px-4  rounded-b-3xl rounded-t-lg   ">
+                            <button className="bg-orange-500 py-3 px-3 w-[50%] rounded-full text-white">Our Services</button>
+                            <button className="bg-white border border-orange-500 py-3 px-3  w-[50%] rounded-full text-orange-500">Contact Us</button>
+                        </div>
+                    </div>
+
+                    <div className="flex lg:order-3 xs:order-3  lg:w-[40%] p-3 justify-end items-end">
+
+                        <div className="flex items-center text-center gap-2  bg-white/30 backdrop-blur-xl p-3 rounded-2xl  w-[200px] ">
+                            <IoStar className="text-orange-500 text-2xl" />
+                            <h1 className="font-bold text-md">845k+</h1>
+                            <h2 className="text-sm">(4.5 Review)</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    )
+}
+
+export default Section1
