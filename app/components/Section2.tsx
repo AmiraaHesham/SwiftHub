@@ -16,29 +16,28 @@ const Section2 = () => {
 
 
             <div className='flex justify-center items-center mt-12 gap-10 '>
-                <div className='border flex flex-col gap-3 px-4 rounded-lg border-gray-400/20 w-[400px] h-[250px] '>
+                <div className='border flex flex-col gap-3 px-4 hover:shadow-lg hover:shadow-slate-600 hover:transition-all cursor-default rounded-lg border-gray-400/20 w-[400px] h-[250px] '>
                     <div className='flex justify-between items-baseline'>
                         <span className='text-2xl text-black/80  bg-gray-300/30 p-2 rounded-full'><LuListChecks /></span>
                         <span className=' p-2 rounded-full text-6xl text-gray-400/10 font-extrabold'>01</span>
                     </div>
                     <span className='text-3xl '>Apply Online</span>
                     <span className='text-gray-600/70'>We analyze traffic patterns and use Al-driven mapping to ensure the fastest, most cost- effective delivery routes.</span>
-                    <span className='flex items-center text-md gap-2'>Read More <GoArrowRight />
+                    <button className='flex items-center text-md gap-2'>Read More <GoArrowRight /></button>
 
-                    </span>
                 </div>
-                <div className='border flex flex-col gap-3 px-4 rounded-lg border-gray-400/20 w-[400px] h-[250px] '>
+                <div className='border flex flex-col gap-3 px-4 cursor-default hover:shadow-lg hover:shadow-slate-600 hover:transition-all rounded-lg border-gray-400/20 w-[400px] h-[250px] '>
                     <div className='flex justify-between items-baseline'>
                         <span className='text-2xl text-black/80  bg-gray-300/30 p-2 rounded-full'><LuNotebookPen /></span>
                         <span className=' p-2 rounded-full text-6xl text-gray-400/10 font-extrabold'>02</span>
                     </div>
                     <span className='text-3xl '>Submit Documents</span>
                     <span className='text-gray-600/70'>We analyze traffic patterns and use Al-driven mapping to ensure the fastest, most cost- effective delivery routes.</span>
-                    <span className='flex items-center text-md gap-2'>Read More <GoArrowRight />
+                    <button className='flex items-center text-md gap-2'>Read More <GoArrowRight /></button>
 
-                    </span>
+
                 </div>
-                <div className='border flex flex-col gap-3 px-4 rounded-lg border-gray-400/20 w-[400px] h-[250px] '>
+                <div className='border flex flex-col gap-3 px-4 cursor-default hover:shadow-lg hover:shadow-slate-600 hover:transition-all rounded-lg border-gray-400/20 w-[400px] h-[250px] '>
                     <div className='flex justify-between items-baseline'>
                         <span className='text-2xl text-black/80  bg-gray-300/30 p-2 rounded-full'><RiInboxArchiveLine />
                         </span>
@@ -46,9 +45,8 @@ const Section2 = () => {
                     </div>
                     <span className='text-3xl '>Receive Goods</span>
                     <span className='text-gray-600/70'>We analyze traffic patterns and use Al-driven mapping to ensure the fastest, most cost- effective delivery routes.</span>
-                    <span className='flex items-center text-md gap-2'>Read More <GoArrowRight />
+                    <button className='flex items-center text-md gap-2'>Read More <GoArrowRight /></button>
 
-                    </span>
                 </div>
             </div>
         </div>
