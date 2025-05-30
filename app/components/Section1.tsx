@@ -2,6 +2,7 @@ import React from 'react'
 import { IoStar } from "react-icons/io5";
 
 import Image from "next/image";
+import { WiMoonWaningCrescent2, WiMoonWaxingCrescent4 } from 'react-icons/wi';
 const Section1 = () => {
     return (
         <div>
@@ -16,7 +17,8 @@ const Section1 = () => {
 
 
             <div className="flex justify-center relative  items-center mt-16 rounded-3xl " >
-                <Image src={'/boat.jpg'} alt="" width={1300} height={100} className="rounded-3xl w-[100%] h-[600px] " />
+
+                <Image src={'/boat.jpg'} alt="" width={1300} height={100} className="  rounded-3xl w-[100%] h-[600px] " />
 
                 <div className="flex lg:flex-row xs:flex-col absolute lg:justify-between lg:items-center w-full top-0">
                     <div className=" block lg:order-1 xs:order-2 xs:mt-3 md:w-[40%] rounded-t-xl p-3">
@@ -30,11 +32,16 @@ const Section1 = () => {
                             <span >+10M User</span>
                         </div>
                     </div>
-                    <div className="flex justify-center lg:order-2 xs:order-1 items-center">
-                        <div className="bg-white flex md:flex-row xs:flex-col justify-center  w-[400px]  items-center gap-4 py-4 px-4  rounded-b-3xl rounded-t-lg   ">
-                            <button className="bg-orange-500 py-3 px-3 md:w-[50%] xs:w-[80%] rounded-full text-white">Our Services</button>
-                            <button className="bg-white border hover:bg-orange-500  hover:text-white border-orange-500 py-3 px-3 xs:w-[80%] md:w-[50%] rounded-full text-orange-500">Contact Us</button>
+                    <div className="flex relative   justify-center lg:order-2 xs:order-1      items-center">
+                        <div className=" flex md:flex-row xs:flex-col bg-white justify-center rounded-b-3xl w-[400px]  items-center gap-4 py-5 px-4     ">
+                            <button className="bg-orange-500 py-2 px-3 md:w-[50%] xs:w-[80%] rounded-full text-white">Our Services</button>
+                            <button className="bg-white border hover:bg-orange-500  hover:text-white border-orange-500 py-2 px-3 xs:w-[80%] md:w-[50%] rounded-full text-orange-500">Contact Us</button>
                         </div>
+                        <span className='xs:hidden lg:block text-7xl text-white absolute top-[-20px] left-[-55px] fas fa-chevron-right -rotate-45'><WiMoonWaxingCrescent4 />
+                        </span>
+                        <span className=' xs:hidden lg:block  text-7xl font-extrabold text-white absolute top-[-20px] right-[-55px] fas fa-chevron-right rotate-45'><WiMoonWaningCrescent2 />
+
+                        </span>
                     </div>
 
                     <div className="flex lg:order-3 xs:order-3  lg:w-[40%] p-3 justify-end items-end">
