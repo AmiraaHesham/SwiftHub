@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 const Section5 = () => {
     return (
-        <div className='mt-32'>
-            <div className='relative'>
-                <Image src={'/boat3.jpg'} alt='' width={1400} height={100} className='h-[600px] w-full  rounded-2xl' />
+        <div className='mt-32 mx-0'>
+            <div className='relative  '>
+                <Image src={'/boat3.jpg'} alt='' width={1400} height={100} className='h-[600px] w-[100%]  rounded-2xl' />
                 <div className='flex lg:justify-end lg:items-end xs:justify-center xs:items-center'>
                     <div className='absolute top-10 right-10 lg:w-[500px] xs:w-[400px] xs:text-3xl lg:text-4xl text-purple-200'>
 

@@ -34,8 +34,8 @@ const Section1 = () => {
                     </div>
                     <div className="flex relative   justify-center lg:order-2 xs:order-1      items-center">
                         <div className=" flex lg:flex-row xs:flex-col bg-white justify-center rounded-b-3xl w-[400px]  items-center gap-4 pb-3 pt-6 px-2    ">
-                            <button className="bg-orange-500 py-3 px-3 lg:w-[50%] xs:w-[80%] rounded-full text-white">Our Services</button>
-                            <button className="bg-white border hover:bg-orange-500  hover:text-white border-orange-500 py-3 px-3 xs:w-[80%] lg:w-[50%] rounded-full text-orange-500">Contact Us</button>
+                            <button className="bg-orange-500 py-4 px-3 lg:w-[50%] xs:w-[80%] rounded-full text-white">Our Services</button>
+                            <button className="bg-white border hover:bg-orange-500  hover:text-white border-orange-500 py-4 px-3 xs:w-[80%] lg:w-[50%] rounded-full text-orange-500">Contact Us</button>
                         </div>
                         <span className='xs:hidden lg:block text-7xl text-white absolute top-[-16px] left-[-55px] fas fa-chevron-right -rotate-45'><WiMoonWaxingCrescent4 />
                         </span>

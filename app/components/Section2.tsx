@@ -10,9 +10,9 @@ const Section2 = () => {
             <div className='text-center justify-center flex flex-col gap-4  '>
                 <h1 className='md:text-5xl lg:text-6xl  xs:text-4xl'>Smart Route Optimization</h1>
                 <span className='flex justify-center '>
-                    <h4 className=' text-gray-600/70 xs:text-lg md:text-xl xs:w-[400px] sm:w-[600px] '>
+                    <p className=' text-gray-600/70 xs:text-lg md:text-xl xs:w-[400px] sm:w-[600px] '>
                         We analyze traffic patterns and use Al-driven mapping to ensure the
-                        fastest, most cost-effective delivery routes.</h4></span>
+                        fastest, most cost-effective delivery routes.</p></span>
             </div>
 
 
@@ -27,8 +27,8 @@ const Section2 = () => {
                     </div>
                     <span className='text-3xl '>
                         Apply Online</span>
-                    <span className='text-gray-600/70'>
-                        We analyze traffic patterns and use Al-driven mapping to ensure the fastest, most cost- effective delivery routes.</span>
+                    <p className='text-gray-600/70'>
+                        We analyze traffic patterns and use Al-driven mapping to ensure the fastest, most cost- effective delivery routes.</p>
                     <button className='flex items-center text-md gap-2'>
                         Read More <GoArrowRight /></button>
 
@@ -42,8 +42,8 @@ const Section2 = () => {
                     </div>
                     <span className='text-3xl '>
                         Submit Documents</span>
-                    <span className='text-gray-600/70'>
-                        We analyze traffic patterns and use Al-driven mapping to ensure the fastest, most cost- effective delivery routes.</span>
+                    <p className='text-gray-600/70'>
+                        We analyze traffic patterns and use Al-driven mapping to ensure the fastest, most cost- effective delivery routes.</p>
 
                     <button className='flex items-center text-md gap-2'>
                         Read More <GoArrowRight /></button>
@@ -60,8 +60,8 @@ const Section2 = () => {
                     </div>
                     <span className='text-3xl '>
                         Receive Goods</span>
-                    <span className='text-gray-600/70'>
-                        We analyze traffic patterns and use Al-driven mapping to ensure the fastest, most cost- effective delivery routes.</span>
+                    <p className='text-gray-600/70'>
+                        We analyze traffic patterns and use Al-driven mapping to ensure the fastest, most cost- effective delivery routes.</p>
                     <button className='flex items-center text-md gap-2'>Read More <GoArrowRight /></button>
 
                 </div>
