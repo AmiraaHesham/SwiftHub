@@ -24,8 +24,8 @@ const Section7 = () => {
                 <div className=' gap-10 flex lg:flex-row xs:flex-col  justify-center items-center w-full'>
 
                     <div className='xs:w-[90%] lg:w-[50%]   '>
-                        <div className='h-[450px]'>
-                            <Image src={'/containers.jpg'} alt={''} width={650} height={100} className='rounded-2xl w-full h-full' />
+                        <div className='h-[400px]'>
+                            <Image src={'/containers.jpg'} alt={''} width={600} height={100} className='rounded-2xl w-full h-full' />
 
                         </div>
                         <div className='flex justify-between items-center mt-6'>
@@ -34,7 +34,7 @@ const Section7 = () => {
                         </div>
                         <span className='text-gray-600/70'>12 February 2025</span>
                     </div>   <div className='xs:w-[90%] lg:w-[50%]   '>
-                        <div className='h-[450px]'>
+                        <div className='h-[400px]'>
                             <Image src={'/shipping.jpg'} alt={''} width={650} height={100} className='rounded-2xl w-full h-full' />
 
                         </div>
