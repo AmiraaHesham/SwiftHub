@@ -15,7 +15,7 @@ const Section3 = () => {
     }
 
     return (
-        <div className='mt-32 w-full cursor-default'>
+        <div className='mt-32 md:px-20 md:py-9 xs:p-3 w-full cursor-default'>
             <div className='lg:w-[650px] '>
                 <h1 className='lg:text-6xl md:text-5xl xs:text-4xl'>Trusted by Businesses</h1>
                 <p className='text-md md:w-[600px] xs:w-[450px] text-gray-600/70 mt-4'>

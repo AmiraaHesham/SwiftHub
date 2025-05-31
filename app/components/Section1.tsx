@@ -5,7 +5,7 @@ import Image from "next/image";
 import { WiMoonWaningCrescent2, WiMoonWaxingCrescent4 } from 'react-icons/wi';
 const Section1 = () => {
     return (
-        <div>
+        <div className=' md:px-20 md:py-9 xs:p-3'>
             <div className="flex flex-col text-center mt-28 justify-center items-center font-serif">
                 <h1 className=" md:text-7xl xs:text-4xl font-bold md:w-[800px] xs:w-[400px]">
                     Seamless Logistics,

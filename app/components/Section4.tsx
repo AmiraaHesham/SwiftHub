@@ -6,7 +6,7 @@ import { SlEnergy } from 'react-icons/sl'
 
 const Section4 = () => {
     return (
-        <div className='mt-32 cursor-default md:block xs:flex xs:flex-col xs:justify-center' >
+        <div className='mt-32 md:px-20 md:py-9 xs:p-3 cursor-default md:block xs:flex xs:flex-col xs:justify-center' >
             <div >
                 <div className='flex justify-between items-center'>
                     <h1 className='lg:text-6xl xs:text-4xl lg:w-[600px] xs:w-[300px]   '>Comprehensive  Logistics Services</h1>
@@ -27,7 +27,7 @@ const Section4 = () => {
                             <span className='text-2xl  text-black/80  bg-gray-300/30 group-hover:bg-white p-4 rounded-full'>
                                 <SlEnergy />
                             </span>
-                            <span className=' p-2 rounded-full text-3xl k font-extrabold'>
+                            <span className=' p-2 rounded-full text-3xl  font-extrabold'>
                                 <GoArrowUpRight />
 
                             </span>

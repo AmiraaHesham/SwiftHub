@@ -6,7 +6,7 @@ import { RiInboxArchiveLine } from 'react-icons/ri'
 const Section2 = () => {
     return (
 
-        <div className='mt-32 flex flex-col justify-center items-center'>
+        <div className='mt-32  md:px-20 md:py-9 xs:p-3 flex flex-col justify-center items-center'>
             <div className='text-center justify-center flex flex-col gap-4  '>
                 <h1 className='md:text-5xl lg:text-6xl  xs:text-4xl'>Smart Route Optimization</h1>
                 <span className='flex justify-center '>
