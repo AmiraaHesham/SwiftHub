@@ -6,7 +6,7 @@ const Section5 = () => {
             <div className='relative  '>
                 <Image src={'/boat3.jpg'} alt='' width={1400} height={100} className='h-[600px] w-[100%] ' />
                 <div className='flex xs:justify-center xs:items-center'>
-                    <div className='absolute top-10 right-10 lg:w-[500px] xs:w-[400px] font-semibold xs:text-3xl lg:text-4xl  text-purple-800'>
+                    <div className='absolute top-10 right-10 lg:w-[500px] xs:w-[400px] font-semibold xs:text-3xl lg:text-4xl  xs:text-purple-200'>
 
                         <p>Revolutionizing supply chains with accuracy, our logistics company provides flawless solutions, enhancing efficiency and dependability to drive business success with assurance.</p>
 
