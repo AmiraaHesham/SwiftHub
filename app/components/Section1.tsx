@@ -6,7 +6,7 @@ import { WiMoonWaningCrescent2, WiMoonWaxingCrescent4 } from 'react-icons/wi';
 const Section1 = () => {
     return (
         <div className=' md:px-20 md:py-9 xs:p-3'>
-            <div className="flex flex-col text-center mt-28 justify-center items-center font-serif">
+            <div className="flex flex-col text-center mt-16 mb-24 justify-center items-center font-serif">
                 <h1 className=" md:text-7xl xs:text-4xl font-bold md:w-[800px] xs:w-[400px]">
                     Seamless Logistics,
                     Faster <span className="text-teal-600">Deliveries</span>
@@ -32,8 +32,8 @@ const Section1 = () => {
                             <span >+10M User</span>
                         </div>
                     </div>
-                    <div className="flex relative   justify-center lg:order-2 xs:order-1      items-center">
-                        <div className=" flex lg:flex-row xs:flex-col bg-white justify-center rounded-b-3xl w-[400px]  items-center gap-4 pb-3 pt-6 px-2    ">
+                    <div className="flex relative xs:mt-[-70px] lg:mt-0  justify-center lg:order-2 xs:order-1      items-center">
+                        <div className="  flex lg:flex-row  xs:flex-col bg-white justify-center rounded-b-3xl w-[400px]  items-center gap-4 pb-3 pt-6 px-2    ">
                             <button className="bg-orange-500 py-4 px-3 lg:w-[50%] xs:w-[80%] rounded-full text-white">Our Services</button>
                             <button className="bg-white border hover:bg-orange-500  hover:text-white border-orange-500 py-4 px-3 xs:w-[80%] lg:w-[50%] rounded-full text-orange-500">Contact Us</button>
                         </div>

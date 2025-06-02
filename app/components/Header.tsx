@@ -3,7 +3,7 @@ import { MdDirectionsBoat } from "react-icons/md";
 import { VscListFlat } from "react-icons/vsc";
 const Header = () => {
     return (
-        <div>
+        <div className='md:px-20 md:py-9 xs:p-3'>
             <header className="flex items-center justify-between cursor-default w-[100%] ">
                 <div className="flex gap-2  items-center">
                     <MdDirectionsBoat className="text-orange-600 text-3xl" />

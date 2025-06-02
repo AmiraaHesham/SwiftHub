@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
@@ -10,7 +11,7 @@ import Section8 from "./components/Section8";
 
 export default function Home() {
   return (
-    <div className="w-[100%] ">
+    <div className="w-[100%] cursor-default">
       <Header />
       <Section1 />
       <Section2 />
@@ -20,6 +21,7 @@ export default function Home() {
       <Section6 />
       <Section7 />
       <Section8 />
+      <Footer />
     </div>
 
   );
