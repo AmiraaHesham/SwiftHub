@@ -84,7 +84,7 @@ const Footer = () => {
                 </div>
 
                 <div className="relative overflow-hidden flex flex-col items-center justify-center md:h-[100px] xl:h-[150px] xs:h-[50px] w-full">
-                    <span className="text-white/60 z-10 text-sm">
+                    <span className="text-white/60 text-sm">
                         ©Swifthub2025. Designed by
                         <span className="text-orange-500 font-bold"> Opndoo</span>
                     </span>

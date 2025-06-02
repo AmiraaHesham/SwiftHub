@@ -20,21 +20,21 @@ const testimonials = [
     {
         rating: 4.5,
         text: "Great service! Real-time tracking kept me informed and the delivery was smooth. Highly recommended!",
-        name: "Sara T.",
+        name: "Mark P.",
         role: "Client",
         img: "/person2.jpeg",
     },
     {
-        rating: 5,
+        rating: 3,
         text: "Reliable from start to finish. The team was responsive, and deliveries were always on schedule.",
-        name: "Mark P.",
-        role: "Developer",
+        name: "Guy Hawkins",
+        role: "Client",
         img: "/person3.jpeg",
     },
     {
         rating: 4,
         text: "Reliable from start to finish. The team was responsive, and deliveries were always on schedule.",
-        name: "Mark P.",
+        name: "Mark T.",
         role: "Developer",
         img: "/person4.jpeg",
     },
@@ -105,7 +105,7 @@ const Section6 = () => {
                                     </p>
                                     <span className='flex gap-4 mt-6'>
                                         <div>
-                                            <Image src={data.img} alt='' width={40} height={40} className='rounded-full' />
+                                            <Image src={data.img} alt='' width={50} height={50} className='rounded-full' />
                                         </div>
                                         <div className='flex flex-col '>
                                             <span className='text-xl'> {data.name}</span>
