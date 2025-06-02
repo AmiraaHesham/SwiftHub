@@ -90,7 +90,7 @@ const Footer = () => {
                     </span>
 
                     <div className="absolute  flex items-end justify-center pointer-events-none">
-                        <h1 className="text-[clamp(7rem,22vw,22rem)] xl:mt-20 xs:mt-7 sm:mt-12  font-bold font-sans  text-gray-400 opacity-30 whitespace-nowrap select-none">
+                        <h1 className="text-[clamp(7rem,22vw,22rem)]  xs:mt-10 sm:mt-16  font-bold font-sans  text-gray-400 opacity-30 whitespace-nowrap select-none">
                             Swifthub
                         </h1>
                     </div>
