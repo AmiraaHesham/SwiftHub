@@ -22,7 +22,7 @@ const Section2 = () => {
                     <div className='flex justify-between items-baseline'>
                         <span className='text-2xl text-black/80  bg-gray-300/30 p-2 rounded-full'>
                             <LuListChecks /></span>
-                        <span className=' p-2 rounded-full text-6xl text-gray-400/10 font-extrabold'>
+                        <span className=' p-2 rounded-full text-6xl text-gray-300 opacity-20 font-extrabold'>
                             01</span>
                     </div>
                     <span className='text-3xl '>
@@ -37,7 +37,7 @@ const Section2 = () => {
                     <div className='flex justify-between items-baseline'>
                         <span className='text-2xl text-black/80  bg-gray-300/30 p-2 rounded-full'>
                             <LuNotebookPen /></span>
-                        <span className=' p-2 rounded-full text-6xl text-gray-400/10 font-extrabold'>
+                        <span className=' p-2 rounded-full text-6xl text-gray-300 opacity-20 font-extrabold'>
                             02</span>
                     </div>
                     <span className='text-3xl '>
@@ -55,7 +55,7 @@ const Section2 = () => {
                         <span className='text-2xl text-black/80  bg-gray-300/30 p-2 rounded-full'>
                             <RiInboxArchiveLine />
                         </span>
-                        <span className=' p-2 rounded-full text-6xl text-gray-400/10 font-extrabold'>
+                        <span className=' p-2 rounded-full text-6xl text-gray-300 opacity-20 font-extrabold'>
                             03</span>
                     </div>
                     <span className='text-3xl '>

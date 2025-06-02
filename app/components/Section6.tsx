@@ -82,8 +82,8 @@ const Section6 = () => {
                             const fullStars = Math.floor(stars);
                             const halfStar = stars % 1 >= 0.5 ? 1 : 0;
                             const emptyStars = 5 - fullStars - halfStar;
-                            return <SwiperSlide key={index} className='bg-gray-100 shadow-lg mb-10 shadow-gray-500 rounded-xl p-10  felx justify-center items-center ' >
-                                <div className='flex flex-col gap-6 w-[500px] h-[250px]'>
+                            return <SwiperSlide key={index} className='bg-gray-100 shadow-lg mb-10  shadow-gray-500 rounded-xl p-10 felx justify-center items-center ' >
+                                <div className='flex flex-col gap-6 w-[550px] h-[250px]'>
                                     <span className='flex text-xl'>
                                         {Array(fullStars).fill(fullStars)
                                             .map((_, index) => (
@@ -93,6 +93,7 @@ const Section6 = () => {
                                         {halfStar === 1 && (
                                             <FaStarHalfAlt className='text-orange-300' />
                                         )}
+
 
                                         {Array(emptyStars)
                                             .fill(emptyStars)
@@ -108,7 +109,7 @@ const Section6 = () => {
                                             <Image src={data.img} alt='' width={50} height={50} className='rounded-full' />
                                         </div>
                                         <div className='flex flex-col '>
-                                            <span className='text-xl'> {data.name}</span>
+                                            <span className='text-lg font-semibold'> {data.name}</span>
                                             <span className='text-xs  text-gray-900/50'> {data.role}</span>
                                         </div>
 

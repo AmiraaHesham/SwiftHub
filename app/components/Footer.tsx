@@ -34,7 +34,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='flex lg:flex-row md:flex-col sm:flex-row xs:flex-col xs:justify-center items-center  xl:gap-32 xs:gap-10   '>
-                        <div className='flex lg:gap-10 xl:gap-32 xs:gap-10' >
+                        <div className='flex items-baseline lg:gap-10 xl:gap-32 xs:gap-10' >
                             <div className='flex flex-col gap-5'>
                                 <span className='lg:text-xl xs:text-lg'>Navigation</span>
                                 <div className='list-none  flex flex-col gap-1 text-sm text-white/60'>
@@ -83,22 +83,20 @@ const Footer = () => {
 
                 </div>
 
-                <div className="relative overflow-hidden flex flex-col items-center justify-center md:h-[100px] xl:h-[150px] xs:h-[50px] w-full">
+                <div className="relative overflow-hidden flex flex-col items-center justify-center md:h-[100px] xl:h-[150px] xs:h-[60px] w-full">
                     <span className="text-white/60 text-sm">
                         ©Swifthub2025. Designed by
                         <span className="text-orange-500 font-bold"> Opndoo</span>
                     </span>
 
                     <div className="absolute  flex items-end justify-center pointer-events-none">
-                        <h1 className="text-[clamp(7rem,22vw,22rem)]  xs:mt-10 sm:mt-16  font-bold font-sans  text-gray-400 opacity-30 whitespace-nowrap select-none">
+                        <h1 className="text-[clamp(7rem,22vw,22rem)]  xs:mt-5 md:mt-13 lg:mt-20  font-bold font-sans  text-gray-400 opacity-25 whitespace-nowrap select-none">
                             Swifthub
                         </h1>
                     </div>
                 </div>
             </div>
         </div>
-
-
     )
 }
 
