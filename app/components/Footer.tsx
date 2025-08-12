@@ -20,7 +20,7 @@ const Footer = () => {
                                 <MdDirectionsBoat className="text-orange-600 text-3xl" />
                                 <h3 className="md:text-xl xs:text-lg font-bold font-sans">SwiftHub </h3>
                             </div>
-                            <p className='lg:w-[300px] xs:w-[400px] text-md text-white/60'>Get a customized shipping quote tailored to your needs. Fast, transparent, and hassle-free pricing for all logistics solutions.
+                            <p className='lg:w-[300px] xs:w-[300px] text-md text-white/60'>Get a customized shipping quote tailored to your needs. Fast, transparent, and hassle-free pricing for all logistics solutions.
                             </p>
                             <div className='flex gap-3 items-center   text-xl'>
                                 <span className='hover:text-gray-700'><FiFacebook /></span>
@@ -33,7 +33,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex lg:flex-row md:flex-col sm:flex-row xs:flex-col xs:justify-center items-center  xl:gap-32 xs:gap-10   '>
+                    <div className='flex lg:flex-row md:flex-col sm:flex-row xs:flex-col xs:justify-center items-baseline  xl:gap-32 xs:gap-10   '>
                         <div className='flex items-baseline lg:gap-10 xl:gap-32 xs:gap-10' >
                             <div className='flex flex-col gap-5'>
                                 <span className='lg:text-xl xs:text-lg'>Navigation</span>
@@ -83,7 +83,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className="relative overflow-hidden flex flex-col items-center justify-center md:h-[100px] xl:h-[150px] xs:h-[60px] w-full">
+                <div className="relative overflow-hidden flex flex-col items-center justify-center md:h-[100px] xl:h-[150px] xs:h-[50px] w-full">
                     <span className="text-white/60 text-sm">
                         ©Swifthub2025. Designed by
                         <span className="text-orange-500 font-bold"> Opndoo</span>

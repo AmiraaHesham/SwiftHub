@@ -64,9 +64,8 @@ const Section6 = () => {
                         coverflowEffect={{
                             rotate: 0,
                             stretch: 0,
-                            depth: 100,
-                            modifier: 1,
-                            slideShadows: true,
+                            depth: 20,
+                            modifier: 0.3,
                         }}
 
                         navigation={{
@@ -101,7 +100,7 @@ const Section6 = () => {
                                                 <FaRegStar key={`empty-${index}`} className='text-orange-300' />
                                             ))}
                                     </span>
-                                    <p className='xl:w-[100%] h-[50%] md:w-[290px] xl:text-2xl md:text-lg xs:text-md xs:w-[180px]  text-gray-900/50'>
+                                    <p className='xl:w-[80%] h-[50%] md:w-[290px] xl:text-2xl md:text-lg xs:text-md xs:w-[180px]  text-gray-900/50'>
                                         {data.text}
                                     </p>
                                     <span className='flex gap-4 mt-6'>

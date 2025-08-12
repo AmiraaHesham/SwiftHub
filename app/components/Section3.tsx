@@ -18,7 +18,7 @@ const Section3 = () => {
         <div className='mt-32 md:px-20 md:py-9 xs:p-3 w-full cursor-default'>
             <div className='lg:w-[650px] '>
                 <h1 className='lg:text-6xl md:text-5xl xs:text-4xl'>Trusted by Businesses</h1>
-                <p className='text-md md:w-[600px] xs:w-[450px] text-gray-600/70 mt-4'>
+                <p className='text-md md:w-[600px] xs:w-[300px] text-gray-600/70 mt-4'>
                     We deliver reliability with cutting-edge technology, real-time tracking, and a commitment to on-time performance, ensuring seamless logistics solutions.</p>
             </div>
             <div className='mt-12 flex lg:flex-row xs:flex-col lg:gap-36 xs:gap-20  justify-center'>

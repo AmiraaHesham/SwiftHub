@@ -22,7 +22,7 @@ const Section8 = () => {
                             <div className='flex flex-col p-2 text-gray-500' ><label>Email*</label>
                                 <input placeholder='Enter your email' className=' outline-none p-2 bg-gray-300/30 rounded-lg'></input></div>
                             <div className='flex flex-col p-2 text-gray-500' ><label>Phone Number*</label>
-                                <input placeholder='Enter your phone number' className='outline-none p-2 bg-gray-300/30  rounded-lg'></input></div>
+                                <input placeholder='Enter phone number' className='outline-none p-2 bg-gray-300/30  rounded-lg'></input></div>
                             <div>
                                 <button className='bg-orange-500 py-2 px-4  text-sm mt-5 text-white rounded-full'>Submit Now</button>
 
